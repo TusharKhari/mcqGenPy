@@ -1,0 +1,20 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/tusharkhari/Desktop/development/python/mcqGen/env
+exec_prefix=/Users/tusharkhari/Desktop/development/python/mcqGen/env
+libdir=/Users/tusharkhari/Desktop/development/python/mcqGen/env/lib
+includedir=/Users/tusharkhari/Desktop/development/python/mcqGen/env/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://xz.tukaani.org/xz-utils/
+Version: 5.4.6
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
