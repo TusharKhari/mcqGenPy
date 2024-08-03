@@ -1,0 +1,10 @@
+#  pip install -r requirements.txt                                                                                                                        ─╯
+
+openai
+langchain
+streamlit
+python-dotenv
+PyPDF2
+
+
+-e .
